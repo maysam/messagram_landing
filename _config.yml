@@ -1,0 +1,35 @@
+title: Messagram
+description: Your favorite messaging app
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  features:
+    output: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# Social Media
+social:
+  twitter: messagram
+  facebook: messagram
+  instagram: messagram
+
+# App Links
+app_links:
+  google_play: https://play.google.com/store/apps/details?id=com.messagram
+  app_store: https://apps.apple.com/app/id123456789
+  apk_download: /downloads/messagram.apk

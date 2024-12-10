@@ -1,0 +1,34 @@
+{
+  "accounts": [
+    {
+      "username": "maysamtorabi",
+      "name": "Connect Safely",
+      "description": "A nonprofit organization dedicated to educating users of connected technology about safety, privacy, and security.",
+      "image": "https://via.placeholder.com/80"
+    },
+    {
+      "username": "cyberbullying",
+      "name": "Cyberbullying Research Center",
+      "description": "Provides up-to-date information about the nature, extent, causes, and consequences of cyberbullying.",
+      "image": "https://via.placeholder.com/80"
+    },
+    {
+      "username": "safekids",
+      "name": "Safe Kids",
+      "description": "Practical advice for raising children in the digital age with a focus on online safety.",
+      "image": "https://via.placeholder.com/80"
+    },
+    {
+      "username": "fosi",
+      "name": "Family Online Safety Institute",
+      "description": "International nonprofit organization working to make the online world safer for kids and their families.",
+      "image": "https://via.placeholder.com/80"
+    },
+    {
+      "username": "netfamilynews",
+      "name": "Net Family News",
+      "description": "A forum for participatory media, digital citizenship, and online safety for parents and educators.",
+      "image": "https://via.placeholder.com/80"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messagram - Landing Page</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            background: #0095f6;
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .button:hover {
+            background: #0081d6;
+        }
+        .signup, .waiting-list {
+            margin-top: 40px;
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 50%;
+        }
+        button[type="submit"] {
+            background: #0095f6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background: #0081d6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Messagram</h1>
+        <p>Your favorite messaging app is coming soon!</p>
+        <div class="buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.messagram" class="button">Download on Google Play</a>
+            <a href="https://apps.apple.com/app/id123456789" class="button">Download on the App Store</a>
+            <a href="/path/to/messagram.apk" class="button">Download APK</a>
+        </div>
+    </div>
+    <div class="signup">
+        <h2>Sign Up for Our Newsletter</h2>
+        <form id="newsletterForm">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <div class="waiting-list">
+        <h2>Join the Waiting List</h2>
+        <form id="waitingListForm">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Join</button>
+        </form>
+    </div>
+    <script>
+        // Add script here if needed
+    </script>
+</body>
+</html>

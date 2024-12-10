@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }} - {{ site.description }}</title>
+    <meta name="description" content="{{ site.description }}">
+    
+    <!-- SEO Tags -->
+    {% seo %}
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ '/assets/images/og-image.png' | relative_url }}">
+    
+    <!-- App Store Meta Tags -->
+    <meta name="apple-itunes-app" content="app-id={{ site.app_links.app_store_id }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="social-links">
+            {% if site.social.twitter %}
+            <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" rel="noopener">Twitter</a>
+            {% endif %}
+            {% if site.social.facebook %}
+            <a href="https://facebook.com/{{ site.social.facebook }}" target="_blank" rel="noopener">Facebook</a>
+            {% endif %}
+            {% if site.social.instagram %}
+            <a href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="noopener">Instagram</a>
+            {% endif %}
+        </div>
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>
